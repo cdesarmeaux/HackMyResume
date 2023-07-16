@@ -40,13 +40,13 @@
   "license": "MIT",
   "preferGlobal": "true",
   "bugs": {
-    "url": "https://github.com/hacksalot/HackMyResume/issues"
+    "url": "https://github.com/cdesarmeaux/HackMyResume/issues"
   },
   "bin": {
     "hackmyresume": "dist/cli/index.js"
   },
   "main": "dist/index.js",
-  "homepage": "https://github.com/hacksalot/HackMyResume",
+  "homepage": "https://github.com/cdesarmeaux/HackMyResume",
   "dependencies": {
     "chalk": "^1.1.1",
     "commander": "^2.9.0",
@@ -56,7 +56,7 @@
     "fresca": "~0.6.0",
     "fresh-jrs-converter": "^0.2.2",
     "fresh-resume-starter": "^0.2.2",
-    "fresh-themes": "^0.15.1-beta",
+    "fresh-themes": "git+https://git@github.com:cdesarmeaux/fresh-themes.git#cdesarmeaux",
     "fs-extra": "^0.26.4",
     "handlebars": "^4.0.5",
     "html": "0.0.10",
